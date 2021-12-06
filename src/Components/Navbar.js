@@ -55,7 +55,7 @@ function NavBar() {
         </Stack>
 
        
-        <Box display={{ lg: "flex", md: "none" }}>
+        <Box display={{ xlg: "flex", md: "none" }}>
           <MenuIcon onClick={handleClick} />
 
           <Menu
