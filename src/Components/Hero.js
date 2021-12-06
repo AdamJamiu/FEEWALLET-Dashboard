@@ -14,9 +14,9 @@ const Hero = () => {
             <Typography variant="h6" fontWeight="bolder" className="cyan">
               Crypro Wallet ____________
             </Typography>
-            <Typography color="var(--deep)" fontWeight="bolder" variant="h3">
-              Everything you need in Crypto,{" "}
-              <span class="cyan">simplified</span>
+            <Typography color="var(--deep)" fontWeight="900" variant="h3">
+              Everything you<br/> need in Crypto,
+              <span class="cyan"><br/>simplified</span>
             </Typography>
             <Typography pt={3} color="var(--grey)">
               Send, receive and exchange Bitcoin and 100+ cryptocurrencies with

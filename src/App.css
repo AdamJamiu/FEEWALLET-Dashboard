@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+
+*, body{
+    font-family: 'Lato', sans-serif;
+}
 :root{
-    --deep : #0F253D;
+    --deep : #10263E;
     --cyan : #2DCCB8;
     --grey:#989C9D;
+    --gray: #AAAAAA;
     --cyan-bg: linear-gradient(
         90deg,
         rgba(36, 159, 164, 1) 35%,
@@ -34,4 +41,8 @@
 
 .deep{
     color: var(--deep);
+}
+
+.grey{
+    color: var(--gray);
 }

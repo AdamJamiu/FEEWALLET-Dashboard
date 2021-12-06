@@ -24,7 +24,7 @@ function NavBar() {
     </Stack>
 
     <Box>
-      <Button variant="contained" className="cyan-button" sx={{borderRadius:'100px'}}>Crreate Account</Button>
+      <Button variant="contained" className="cyan-button" fontWeight="bolder" sx={{fontWeight:"bold",boxShadow:'0',borderRadius:'100px'}}>Create Account</Button>
     </Box>
    </Stack>
     </>
