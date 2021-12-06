@@ -30,11 +30,11 @@ const Brands = () => {
 const Whyme = () => {
   return (
     <>
-      <Stack pt={8} pb={5} direction={{ sm: "row", xs: "column",width:'100%' }} spacing={25} alignItems="center">
+      <Stack pt={8} pb={5} direction={{ sm: "row", xs: "column" }} maxWidth="90%"  spacing={5} justifyContent="space-between" alignItems="center">
         <Box>
-          <Typography fontWeight="bold" variant="h6" className="cyan">Why Choose Me?</Typography>
-          <Typography fontWeight="bold" variant="h3" className="deep">
-            Buy Cryptocurrency<br/> with Feewallet
+          <Typography fontWeight="bold" variant="h7" className="cyan">WHY CHOOSE ME?</Typography>
+          <Typography fontWeight="bold" variant="h4" className="deep">
+            Buy Cryptocurrency with Feewallet
           </Typography>
         </Box>
         <Box width={{sm:'30%',xs:'90%'}}>
