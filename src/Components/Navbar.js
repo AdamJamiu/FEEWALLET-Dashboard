@@ -59,6 +59,7 @@ function NavBar() {
           <MenuIcon onClick={handleClick} />
 
           <Menu
+          className="deep"
             id="basic-menu"
             anchorEl={anchorEl}
             open={open}
@@ -67,9 +68,11 @@ function NavBar() {
               "aria-labelledby": "basic-button",
             }}
           >
-            <MenuItem onClick={handleClose}>Profile</MenuItem>
-            <MenuItem onClick={handleClose}>My account</MenuItem>
-            <MenuItem onClick={handleClose}>Logout</MenuItem>
+            <MenuItem onClick={handleClose}>Buy & Sell crypto</MenuItem>
+            <MenuItem onClick={handleClose}>Market Prices</MenuItem>
+            <MenuItem onClick={handleClose}>Free Bitcoin</MenuItem>
+            <MenuItem onClick={handleClose}>Keyless Security</MenuItem>
+            <MenuItem onClick={handleClose}>About Us</MenuItem>
           </Menu>
         </Box>
       </Stack>
