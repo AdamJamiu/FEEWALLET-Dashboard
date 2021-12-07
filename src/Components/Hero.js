@@ -26,7 +26,7 @@ const Hero = () => {
         <Stack direction={{ md: "row", xs: "column" }} pt={5} spacing={4}>
           <Box wdith={{xs:'90%', md:'10%'}}>
             <Typography variant="h6" fontWeight="bolder" className="cyan">
-              Crypro Wallet ____________
+              Crypro Wallet __________
             </Typography>
             <Typography color="var(--deep)" fontWeight="900" variant="h3">
               Everything you<br/> need in Crypto,

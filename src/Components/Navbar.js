@@ -34,11 +34,15 @@ function NavBar() {
           display={{ xs: "none", md: "flex" }}
           className="deep"
           spacing={3}
+          alignItems="center"
         >
           <Typography fontWeight="bold">Buy & Sell crypto</Typography>
           <Typography fontWeight="bold">Market Price</Typography>
           <Typography fontWeight="bold">Keyless Security</Typography>
           <Typography fontWeight="bold">About Us</Typography>
+        </Stack>
+
+        <Box display={{xs:'none',md:'flex'}}>
           <Button
             variant="contained"
             className="cyan-button"
@@ -52,14 +56,13 @@ function NavBar() {
           >
             Create Account
           </Button>
-        </Stack>
+        </Box>
 
-       
         <Box display={{ xlg: "flex", md: "none" }}>
           <MenuIcon onClick={handleClick} />
 
           <Menu
-          className="deep"
+            className="deep"
             id="basic-menu"
             anchorEl={anchorEl}
             open={open}
